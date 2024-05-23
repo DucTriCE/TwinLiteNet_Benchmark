@@ -1,0 +1,3 @@
+alias trtexec="/usr/src/tensorrt/bin/trtexec"
+trtexec --onnx=/home/ceec/TwinLiteNet_done/pretrained_ema/medium.onnx --int8 --saveEngine=medium.trt --workspace=2048 --calib=new_calibration.cache
+sudo chmod 777 /sys/bus/i2c/drivers/ina3221x/7-0040/iio:device0/in_power0_input
